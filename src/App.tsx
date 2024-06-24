@@ -1,9 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.scss';
-import PokemonsList from './components/PokemonsList/PokemonsList';
-import { Route, Routes } from 'react-router-dom';
-import PokemonDetails from './components/PokemonDetails/PokemonDetails';
+import React from "react";
+import "./App.scss";
+import PokemonsList from "./components/PokemonsList/PokemonsList";
+import { Route, Routes } from "react-router-dom";
+import PokemonDetails from "./components/PokemonDetails/PokemonDetails";
 
 function App() {
   return (
